@@ -1,0 +1,21 @@
+{
+  "name": "allure-js-reporter-issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open-report": "allure generate --clean && npx allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.18.1",
+    "allure-mocha": "^2.0.0-beta.19",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "mocha-multi-reporters": "^1.5.1",
+    "rimraf": "^3.0.2"
+  }
+}
