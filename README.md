@@ -15,6 +15,8 @@ Observe the following _correct_ results in the report:
 - One test is broken (in yellow) due to a thrown Error.
 - One test is failed (in red) due to an AssertionError thrown by Chai expect.
 
+![](https://github.com/jamesmortensen/allure-js-reporter-issues/blob/master/screenshots/sequential-mode-report.png)
+
 Next, run the same test in parallel mode:
 
 1. Run `npx mocha -p test-without-hooks.js`
@@ -26,6 +28,7 @@ Observe the following results in the report:
 - One test is broken (in yellow) due to a thrown Error.
 - One test is failed, due to an AssertionError thrown by Chai expect. _However, it appears incorrectly_ **in yellow**.
 
+![](https://github.com/jamesmortensen/allure-js-reporter-issues/blob/master/screenshots/parallel-mode-report.png)
 
 ### When run in parallel mode with hooks, hook.error() is not a function
 
